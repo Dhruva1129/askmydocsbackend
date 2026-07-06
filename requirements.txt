@@ -1,0 +1,57 @@
+# Web framework
+fastapi
+uvicorn
+sse-starlette
+python-multipart
+# Database
+sqlalchemy
+asyncpg
+alembic
+
+# Settings
+pydantic-settings
+
+# Vector DB
+chromadb
+posthog
+
+# Embeddings & reranking (free, local)
+sentence-transformers
+
+# LLM client (Groq — free tier)
+httpx==0.27.2
+groq
+
+# Auth (JWT + password hashing)
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt
+
+# RAG framework
+langchain
+langchain-text-splitters
+
+# BM25 keyword search
+rank-bm25
+
+# PDF parsing
+pypdf
+
+# Numpy
+numpy
+
+# Eval
+ragas
+datasets
+openai # ragas uses openai for its own scoring LLM
+
+# Testing
+pytest
+pytest-asyncio
+nltk
+# Dev
+python-dotenv
+
+# Extra Document Parsers
+python-docx
+openpyxl

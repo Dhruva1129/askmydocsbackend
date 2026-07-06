@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+ENV/
+env/
+.venv/
+
+# Environment variables (contains sensitive API keys and database credentials)
+.env
+
+# Local Databases and Search Indexes
+chroma_db/
+bm25_index.pkl
+
+# Testing Cache
+.pytest_cache/
+.pytest.ini
