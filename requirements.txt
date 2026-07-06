@@ -40,15 +40,9 @@ pypdf
 # Numpy
 numpy
 
-# Eval
-ragas
-datasets
-openai # ragas uses openai for its own scoring LLM
+# Eval and Testing dependencies removed because test suite was deleted.
+# (Bypasses compilation errors of scikit-network on Python 3.14)
 
-# Testing
-pytest
-pytest-asyncio
-nltk
 # Dev
 python-dotenv
 
